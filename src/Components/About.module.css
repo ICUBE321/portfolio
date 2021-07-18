@@ -1,0 +1,103 @@
+.about {
+  position: relative;
+  background: #062f4f;
+  color: white;
+  margin-top: 3.7rem;
+  text-align: center;
+}
+
+/* .heading h1 {
+  display: inline;
+  padding-bottom: 0.6rem;
+  border-bottom: 4px solid white;
+} */
+
+.profile-picture {
+  margin: 1.8rem auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: white;
+}
+
+.description {
+  background: white;
+  height: 10.7%;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.description-text {
+  font-size: 1.8rem;
+  color: #bb2601;
+  position: relative;
+  top: 30%;
+}
+
+/* section {
+    padding-top: 20px;
+} */
+
+.main-section {
+  margin: 0.6rem;
+}
+
+.tab {
+    margin: 0.6rem;
+}
+
+.section {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.heading-section {
+  /* background: #813772; */
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  height: 118px;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.heading-section > h2 {
+  border-bottom: 8px solid white;
+  display: inline;
+  padding-bottom: 0.6rem;
+  margin: 0;
+}
+
+.items-section {
+  /* margin-bottom: 5px; */
+  border: 4px solid white;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+/* .items-section:hover {
+  color: white;
+  background: #571201;
+  border: none;
+} */
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items li {
+  display: inline-block;
+  background: #813772;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 0.9rem 0.3rem;
+  width: 40%;
+  margin: 0.9rem;
+}
+
+.items li:hover {
+  color: #813772;
+  background: white;
+  cursor: pointer;
+}

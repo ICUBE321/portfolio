@@ -1,0 +1,44 @@
+.projects {
+  height: 100%;
+  position: relative;
+}
+
+.projects-list {
+  height: 70%;
+  position: absolute;
+  top: 20%;
+}
+
+.project {
+  display: inline-block;
+  height: 40%;
+  width: 40%;
+  background: white;
+  margin: 0.6rem;
+  vertical-align: middle;
+  position: relative;
+}
+
+.project-label {
+  color: #b82601;
+  font-size: 1.3rem;
+  font-weight: bold;padding: 0.7rem;
+}
+
+.link {
+  background: #813772;
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link:hover,
+.link:active {
+  background: #b655a3;
+}
