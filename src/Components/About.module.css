@@ -6,12 +6,6 @@
   text-align: center;
 }
 
-/* .heading h1 {
-  display: inline;
-  padding-bottom: 0.6rem;
-  border-bottom: 4px solid white;
-} */
-
 .profile-picture {
   margin: 1.8rem auto;
   height: 200px;
@@ -34,10 +28,6 @@
   top: 30%;
 }
 
-/* section {
-    padding-top: 20px;
-} */
-
 .main-section {
   margin: 0.6rem;
 }
@@ -56,7 +46,7 @@
   /* background: #813772; */
   text-transform: uppercase;
   font-size: 1.2rem;
-  height: 118px;
+  height: 7.4rem;
   text-align: center;
   padding-top: 2.5rem;
 }
@@ -74,12 +64,6 @@
   font-weight: bold;
   padding: 1.5rem;
 }
-
-/* .items-section:hover {
-  color: white;
-  background: #571201;
-  border: none;
-} */
 
 .items {
   list-style: none;

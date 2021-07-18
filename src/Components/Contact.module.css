@@ -11,9 +11,6 @@
   padding: 1.5rem;
   text-align: center;
   font-size: 1.8rem;
-  /* color: #bb2601; */
-  /* position: relative;
-  top: 30%; */
 }
 
 .contact-form {
@@ -48,7 +45,8 @@ textarea.contact-input {
   font-size: 1.2rem;
   text-align: center;
   position: relative;
-  top: 10px;
+  top: 0.7rem;
+  cursor: pointer;
 }
 
 .submit:hover,
@@ -56,5 +54,5 @@ textarea.contact-input {
   border: none;
   background-color: black;
   color: white;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
