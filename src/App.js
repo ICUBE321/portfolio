@@ -14,24 +14,24 @@ function App() {
         <div className="navigation">
           <img src="./Images/white.jpg" className="logo-image" />
           <div className="navigation-sub">
-            <NavLink activeClassName="active" to="/" className="item" exact>
+            <NavLink activeClassName="active" to="portfolio/" className="item" exact>
               HOME
             </NavLink>
-            <NavLink activeClassName="active" to="/about" className="item">
+            <NavLink activeClassName="active" to="portfolio/about" className="item">
               ABOUT
             </NavLink>
-            <NavLink activeClassName="active" to="/projects" className="item">
+            <NavLink activeClassName="active" to="portfolio/projects" className="item">
               PROJECTS
             </NavLink>
-            <NavLink activeClassName="active" to="/contact" className="item">
+            <NavLink activeClassName="active" to="portfolio/contact" className="item">
               CONTACT
             </NavLink>
           </div>
         </div>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="portfolio/" component={Home} />
+        <Route path="portfolio/about" component={About} />
+        <Route path="portfolio/projects" component={Projects} />
+        <Route path="portfolio/contact" component={Contact} />
       </div>
     </BrowserRouter>
   );
