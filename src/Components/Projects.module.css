@@ -4,9 +4,10 @@
 }
 
 .projects-list {
-  height: 70%;
+  height: 70%; 
   position: absolute;
   top: 20%;
+  margin: 0 auto;
 }
 
 .project {
