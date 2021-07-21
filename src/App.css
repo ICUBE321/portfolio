@@ -16,10 +16,21 @@
     z-index: 1;
 }
 
+.logo-image {
+    height: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-image > img {
+    height: 100%;
+}
+
 .navigation-sub {
     display: inline-block;
     width: calc(100% - 105px);
     text-align: right;
+    vertical-align: middle;
 }
 
 .item {

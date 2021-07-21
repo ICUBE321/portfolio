@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
 
 import { BrowserRouter, Route, NavLink } from "react-router-dom";
@@ -12,7 +12,9 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <div className="navigation">
-          <img src="./Images/white.jpg" className="logo-image" />
+          <NavLink activeClassName="active" to="/" className="logo-image" exact>
+            <img src={"/Images/white.jpg"} />
+          </NavLink>
           <div className="navigation-sub">
             <NavLink activeClassName="active" to="/" className="item" exact>
               HOME

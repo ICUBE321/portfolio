@@ -9,7 +9,6 @@ const About = (props) => {
         <h1>ABOUT</h1>
       </div>
       <div className={styles["profile-picture"]}>
-        <img src="../Images/profile-pic.jpg" />
       </div>
       <div className={styles.description}>
         <p className={styles["description-text"]}>
