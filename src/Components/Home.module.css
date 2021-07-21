@@ -23,6 +23,7 @@
   text-align: center;
   position: relative;
   top: 2.5rem;
+  transition: 0.1s;
 }
 
 .projectsLink:hover {

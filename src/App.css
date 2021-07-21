@@ -17,7 +17,7 @@
 }
 
 .logo-image {
-    height: 2rem;
+    height: 32px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -37,9 +37,37 @@
     text-decoration: none;
     color: white;
     margin: 0 1.2rem;
+    transition: 0.3s;
 }
 
 .item:hover,
 .active {
     color: #B82601;
+}
+
+.main {
+    height: fit-content;
+}
+
+.footer {
+    background: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1rem;
+    vertical-align: middle;
+    height: 32px;
+}
+
+/* .footer-link:hover {
+    color: rgb(156, 156, 156);
+} */
+
+.footer-link > img {
+    height: 100%;
 }

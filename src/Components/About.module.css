@@ -29,11 +29,12 @@
 }
 
 .main-section {
-  margin: 0.6rem;
+  padding: 0.6rem;
 }
 
 .tab {
     margin: 0.6rem;
+    margin-bottom: 0;
 }
 
 .section {
@@ -78,6 +79,7 @@
   padding: 0.9rem 0.3rem;
   width: 40%;
   margin: 0.9rem;
+  transition: 0.3s;
 }
 
 .items li:hover {
