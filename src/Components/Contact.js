@@ -15,17 +15,19 @@ const Contact = (props) => {
             className={styles["contact-input"]}
             type="text"
             placeholder="Name"
+            autoComplete="off"
           />
           <input
             className={styles["contact-input"]}
             type="email"
             placeholder="Enter email"
+            autoComplete="off"
           />
           <textarea
             className={styles["contact-input"]}
             placeholder="Your Message"
           />
-          <button className={styles.submit}>SUBMIT</button>
+          <button disabled className={styles.submit}>SUBMIT</button>
         </form>
       </div>
     </div>
