@@ -12,7 +12,7 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 
 function App() {
-  const location = useLocation();
+  // const location = useLocation();
   return (
     <div className="App">
       <Router>
