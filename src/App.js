@@ -5,37 +5,21 @@ import logo from "./images/white.jpg";
 import linkedin from "./images/linkedin-icon.png";
 import github from "./images/github-icon.png";
 
-import { HashRouter as Router, Route, NavLink, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import Projects from "./Components/Projects";
+import IndexNavbar from "./Components/IndexNavbar";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
 import Home from "./Components/Home";
 
+
 function App() {
-  const location = useLocation();
   return (
     <div className="App">
       <Router>
-      <div className="navigation">
-          <NavLink activeClassName="active" to="/" className="logo-image">
-            <img src={logo} alt="logo image" />
-          </NavLink>
-          <div className="navigation-sub">
-            <NavLink activeClassName="active" to="/" className="item">
-              HOME
-            </NavLink>
-            <NavLink activeClassName="active" to="/about" className="item">
-              ABOUT
-            </NavLink>
-            <NavLink activeClassName="active" to="/projects" className="item">
-              PROJECTS
-            </NavLink>
-            <NavLink activeClassName="active" to="/contact" className="item">
-              CONTACT
-            </NavLink>
-          </div>
-        </div>
+      
         <div>
+        <IndexNavbar />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
