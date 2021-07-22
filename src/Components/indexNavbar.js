@@ -1,7 +1,7 @@
 import React from "react"
 import {NavLink, useLocation } from "react-router-dom";
 
-function indexNavbar(){
+function IndexNavbar(){
   const location = useLocation();
   return(
 <div className="navigation">

@@ -7,10 +7,10 @@ import github from "./images/github-icon.png";
 
 import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import Projects from "./Components/Projects";
+import IndexNavbar from "./Components/IndexNavbar";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
 import Home from "./Components/Home";
-import indexNavbar from "./Components/indexNavbar";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Router>
       
         <div>
-        <indexNavbar />
+        <IndexNavbar />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
