@@ -5,7 +5,7 @@ import logo from "./images/white.jpg";
 import linkedin from "./images/linkedin-icon.png";
 import github from "./images/github-icon.png";
 
-import { BrowserRouter, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, NavLink, Switch } from "react-router-dom";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
@@ -45,10 +45,12 @@ function App() {
           </div>
         </div>
         <div className="main">
-          <Route exact path="/portfolio" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/portfolio" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
         </div>
         <div className="footer">
           <a
