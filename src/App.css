@@ -6,45 +6,6 @@
     height: 100%;
 }
 
-.navigation {
-    background: black;
-    padding: 1.2rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.logo-image {
-    height: 32px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logo-image > img {
-    height: 100%;
-}
-
-.navigation-sub {
-    display: inline-block;
-    width: calc(100% - 105px);
-    text-align: right;
-    vertical-align: middle;
-}
-
-.item {
-    text-decoration: none;
-    color: white;
-    margin: 0 1.2rem;
-    transition: 0.3s;
-}
-
-.item:hover,
-.active {
-    color: #B82601;
-}
-
 .main {
     height: fit-content;
 }
