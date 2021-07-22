@@ -7,8 +7,8 @@ const Home = (props) => {
   return (
     <div className={`${styles.home} ${shared["container-div"]}`}>
       <p className={styles["intro-text"]}>
-        Hello, I'm{" "}
-        <strong className={styles.highlighted}>Izien Iremiren</strong>.
+        Hello, I'm
+        <strong className={styles.highlighted}> Izien Iremiren</strong>.
       </p>
       <p className={styles["intro-text"]}>I'm a full-stack web developer.</p>
       <NavLink to="/projects" className={styles.projectsLink}>
@@ -17,5 +17,5 @@ const Home = (props) => {
     </div>
   );
 };
-
+  
 export default Home;
