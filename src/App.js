@@ -5,7 +5,7 @@ import logo from "./images/white.jpg";
 import linkedin from "./images/linkedin-icon.png";
 import github from "./images/github-icon.png";
 
-import { HashRouter as Router, Route, NavLink, Switch, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, NavLink, useLocation } from "react-router-dom";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
