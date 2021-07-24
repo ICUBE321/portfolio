@@ -1,6 +1,6 @@
 .contact-content {
   position: relative;
-  top: 10vh;
+  top: 3vh;
 }
 
 .subheading {
@@ -16,8 +16,8 @@
 .contact-form {
   margin: 0 auto;
   width: 50vw;
-  position: relative;
-  top: 10%;
+  /* position: relative;
+  top: 10%; */
 }
 
 .contact-input {
@@ -44,10 +44,10 @@ textarea.contact-input {
   padding: 0.6rem 1rem;
   font-size: 1.2rem;
   text-align: center;
-  position: relative;
-  top: 0.7rem;
   cursor: pointer;
   transition: 0.1s;
+  /* position: relative;
+  top: 0.7rem; */
 }
 
 .submit:hover,

@@ -1,7 +1,8 @@
 .container-div {
-  margin-top: 3.7rem;
+  padding: 7rem 0;
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
+  height: calc(100vh - 65px);
   background: #062f4f;
   color: white;
 }

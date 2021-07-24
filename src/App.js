@@ -18,13 +18,10 @@ function App() {
     <div className="App">
       <HashRouter>
         <Navbar />
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
-        </div>
-
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
         <div className="footer">
           <a
             href="https://www.linkedin.com/in/izien-iremiren/"
