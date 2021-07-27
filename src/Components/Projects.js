@@ -6,7 +6,7 @@ import styles from "./Projects.module.css";
 import capstone from "../images/capstone.png"
 import healthApp from "../images/health-app.PNG";
 import ticTacToe from "../images/ticTacToe.PNG";
-import cookAtHome from "../images/cook-at-home";
+import cookAtHome from "../images/cook-at-home.PNG";
 
 import Project from "./Project";
 
