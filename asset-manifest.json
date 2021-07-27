@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d2bcf76.chunk.css",
-    "main.js": "/portfolio/static/js/main.7f7fefe5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7f7fefe5.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3361e7fc.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3361e7fc.js.map",
-    "static/js/2.968c36aa.chunk.js": "/portfolio/static/js/2.968c36aa.chunk.js",
-    "static/js/2.968c36aa.chunk.js.map": "/portfolio/static/js/2.968c36aa.chunk.js.map",
-    "static/js/3.53b81c1f.chunk.js": "/portfolio/static/js/3.53b81c1f.chunk.js",
-    "static/js/3.53b81c1f.chunk.js.map": "/portfolio/static/js/3.53b81c1f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.57499e9a.chunk.css",
+    "main.js": "/portfolio/static/js/main.f4a37fac.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f4a37fac.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.33f3cdbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.33f3cdbf.js.map",
+    "static/js/2.03fab3f7.chunk.js": "/portfolio/static/js/2.03fab3f7.chunk.js",
+    "static/js/2.03fab3f7.chunk.js.map": "/portfolio/static/js/2.03fab3f7.chunk.js.map",
+    "static/js/3.1d6eb20b.chunk.js": "/portfolio/static/js/3.1d6eb20b.chunk.js",
+    "static/js/3.1d6eb20b.chunk.js.map": "/portfolio/static/js/3.1d6eb20b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.8d2bcf76.chunk.css.map": "/portfolio/static/css/main.8d2bcf76.chunk.css.map",
-    "static/js/2.968c36aa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.968c36aa.chunk.js.LICENSE.txt",
+    "static/css/main.57499e9a.chunk.css.map": "/portfolio/static/css/main.57499e9a.chunk.css.map",
+    "static/js/2.03fab3f7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.03fab3f7.chunk.js.LICENSE.txt",
+    "static/media/capstone.5f808575.png": "/portfolio/static/media/capstone.5f808575.png",
     "static/media/github-icon.b6522b6a.png": "/portfolio/static/media/github-icon.b6522b6a.png",
+    "static/media/health-app.49684a79.PNG": "/portfolio/static/media/health-app.49684a79.PNG",
     "static/media/linkedin-icon.cbf5707b.png": "/portfolio/static/media/linkedin-icon.cbf5707b.png",
-    "static/media/About.module.css": "/portfolio/static/media/profile-pic.eb258c3a.jpg"
+    "static/media/About.module.css": "/portfolio/static/media/profile-pic.eb258c3a.jpg",
+    "static/media/ticTacToe.8b67f391.PNG": "/portfolio/static/media/ticTacToe.8b67f391.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.3361e7fc.js",
-    "static/js/2.968c36aa.chunk.js",
-    "static/css/main.8d2bcf76.chunk.css",
-    "static/js/main.7f7fefe5.chunk.js"
+    "static/js/runtime-main.33f3cdbf.js",
+    "static/js/2.03fab3f7.chunk.js",
+    "static/css/main.57499e9a.chunk.css",
+    "static/js/main.f4a37fac.chunk.js"
   ]
 }
