@@ -1,0 +1,66 @@
+.project {
+  display: inline-block;
+  height: 60%;
+  width: 40%;
+  background: white;
+  margin: 1.5rem;
+  vertical-align: middle;
+  position: relative;
+}
+
+.link-box {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  transition: 0.7s;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.link-box:hover > .image {
+  transform: scale(1.5);
+}
+
+.project-label {
+  background: linear-gradient(to bottom, rgba(212, 212, 209, 0.6) 10%, transparent);
+  color: #b82601;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.link {
+  background: #813772;
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.link-box:hover > .link,
+.link:active {
+  background: #b655a3;
+}

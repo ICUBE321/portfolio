@@ -9,27 +9,3 @@
 .main {
     height: fit-content;
 }
-
-.footer {
-    /* margin-top: 3rem; */
-    background: black;
-    text-align: center;
-    padding: 1rem;
-}
-
-.footer-link {
-    display: inline-block;
-    color: #ccc;
-    text-decoration: none;
-    margin: 0 1rem;
-    vertical-align: middle;
-    height: 32px;
-}
-
-/* .footer-link:hover {
-    color: rgb(156, 156, 156);
-} */
-
-.footer-link > img {
-    height: 100%;
-}

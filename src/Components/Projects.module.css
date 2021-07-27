@@ -8,38 +8,3 @@
   width: 80%;
   margin: 1rem auto;
 }
-
-.project {
-  display: inline-block;
-  height: 45%;
-  width: 40%;
-  background: white;
-  margin: 1.5rem;
-  vertical-align: middle;
-  position: relative;
-}
-
-.project-label {
-  color: #b82601;
-  font-size: 1.3rem;
-  font-weight: bold;padding: 0.7rem;
-}
-
-.link {
-  background: #813772;
-  display: block;
-  width: 100%;
-  padding: 0.7rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.link:hover,
-.link:active {
-  background: #b655a3;
-}

@@ -1,6 +1,14 @@
 import React from "react";
+
 import shared from "./Shared.module.css";
 import styles from "./Projects.module.css";
+
+import capstone from "../images/capstone.png"
+import healthApp from "../images/health-app.PNG";
+import ticTacToe from "../images/ticTacToe.PNG";
+import cookAtHome from "../images/cook-at-home";
+
+import Project from "./Project";
 
 const Projects = (props) => {
   return (
@@ -9,50 +17,10 @@ const Projects = (props) => {
         <h1>PROJECTS</h1>
       </div>
       <div className={styles['projects-list']}>
-        <div className={styles.project}>
-          <label className={styles["project-label"]}>
-            Health App - Web App
-          </label>
-          <a
-            className={styles.link}
-            href="https://cloud-health-app.herokuapp.com/"
-          >
-            Visit App!
-          </a>
-        </div>
-        <div className={styles.project}>
-          <label className={styles["project-label"]}>
-            Tic-Tac-Toe Game - Web App
-          </label>
-          <a
-            className={styles.link}
-            href="https://test-tic-tac-toe-game.herokuapp.com/"
-          >
-            Visit Game!
-          </a>
-        </div>
-        <div className={styles.project}>
-          <label className={styles["project-label"]}>
-            IoT Fire Prediction System - Distributed System
-          </label>
-          <a
-            className={styles.link}
-            href="https://github.com/ICUBE321/Fire-Detection-System.git"
-          >
-            Visit project repo!
-          </a>
-        </div>
-        <div className={styles.project}>
-          <label className={styles["project-label"]}>
-            Meal Planner - Mobile App
-          </label>
-          <a
-            className={styles.link}
-            href="https://github.com/ICUBE321/meal-planner.git"
-          >
-            Visit app repo!
-          </a>
-        </div>
+        <Project title="Health App - Web App" link="https://cloud-health-app.herokuapp.com/" text="Visit App!" image={healthApp}/>
+        <Project title="Tic-Tac-Toe Game - Web App" link="https://test-tic-tac-toe-game.herokuapp.com/" text="Visit Game!" image={ticTacToe}/>
+        <Project title="IoT Fire Prediction System - Distributed System" link="https://github.com/ICUBE321/Fire-Detection-System.git" text="Visit project repo!" image={capstone}/>
+        <Project title=" Meal Planner - Mobile App" link="https://github.com/ICUBE321/meal-planner.git" text="Visit app repo!" image={cookAtHome}/>
       </div>
     </div>
   );
