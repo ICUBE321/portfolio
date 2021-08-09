@@ -1,6 +1,6 @@
 .home {
   background: #062f4f;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 0;
   padding-top: 12rem;
   color: white;
@@ -22,7 +22,7 @@
   font-size: 1.2rem;
   text-align: center;
   position: relative;
-  top: 2.5rem;
+  top: 5rem;
   transition: 0.1s;
 }
 
@@ -30,4 +30,14 @@
   border: none;
   background-color: black;
   color: white;
+}
+
+@media (min-width: 40rem) {
+  .home {
+    font-size: 2.5rem;
+  }
+
+  .projectsLink {
+      top: 2.5rem;
+  }
 }

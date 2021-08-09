@@ -13,7 +13,7 @@ import Project from "./Project";
 const Projects = (props) => {
   return (
     <div className={`${styles.projects} ${shared["container-div"]}`}>
-      <div className={`${shared.heading} ${styles.heading}`}>
+      <div className={`${shared.heading}`}>
         <h1>PROJECTS</h1>
       </div>
       <div className={styles['projects-list']}>

@@ -1,38 +1,98 @@
 .navigation {
-    background: black;
-    padding: 1.2rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  background: black;
+  padding: 1.2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .logo-image {
-    height: 32px;
-    display: inline-block;
-    vertical-align: middle;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logo-image > img {
-    height: 100%;
+  height: 100%;
 }
 
 .navigation-sub {
-    display: inline-block;
-    width: calc(100% - 105px);
-    text-align: right;
-    vertical-align: middle;
+  display: none;
 }
 
 .item {
-    text-decoration: none;
-    color: white;
-    margin: 0 1.2rem;
-    transition: 0.3s;
+  text-decoration: none;
+  color: white;
+  margin: 0 1.2rem;
+  transition: 0.3s;
 }
 
 .item:hover,
 .active {
-    color: #B82601;
+  color: #b82601;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: white;
+  position: fixed;
+  top: 3%;
+  right: 3%;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon.open {
+  color: #b82601;
+}
+
+.dropdown .mobile-nav__sub {
+  display: none;
+}
+
+.dropdown .mobile-nav__sub.open {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: white;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  z-index: 100;
+}
+
+.dropdown .mobile-nav__sub .mobile-nav__item {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: inherit;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.dropdown .mobile-nav__sub .mobile-nav__item:hover {
+  background: black;
+  color: white;
+}
+
+@media (min-width: 40rem) {
+  .navigation-sub {
+    display: inline-block;
+    width: calc(100% - 105px);
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
 }
