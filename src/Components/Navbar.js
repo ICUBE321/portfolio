@@ -25,7 +25,7 @@ const Navbar = () => {
         to="/"
         className={styles["logo-image"]}
       >
-        <img src={logo} alt="logo image" />
+        <img src={logo} alt="logo" />
       </NavLink>
       <a className={`${styles.icon} ${styles[mobileNavClass]}`} onClick={openMobileNav}>
         &#9776;
